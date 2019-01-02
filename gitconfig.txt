@@ -1,0 +1,9 @@
+
+[user]
+	name = Cédric GOUBARD
+	email = goubard.cedric@gmail.com
+[alias]
+	hist = log --color --pretty=format:\"C(yellow)%h%C(reset) %s%C(bold red)%d%C(reset) %C(green)%ad%C(reset) %C(blue)[%an]%C(reset)\" --relative-date --decorate
+	co = checkout
+	graph = log --color --graph --pretty=format:\"%h | %ad | %an | %s%d\" --date=short
+
