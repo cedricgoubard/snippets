@@ -22,4 +22,4 @@ def setup_loggers(logger_name, file_path=None):
     handler.setFormatter(formatter)
 
     logger.addHandler(handler)
-    retun logger
+    return logger
