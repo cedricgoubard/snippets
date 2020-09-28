@@ -1,5 +1,5 @@
 function get-gitstatus { git status -sb $args }
-Set-Alias -Name g -Value get-gitstatus
+Set-Alias -Name gsb -Value get-gitstatus
 
 function get-githist { git hist $args }
 Set-Alias -Name gh -Value get-githist
@@ -14,7 +14,10 @@ function gitbranch { git branch $args }
 Set-Alias -Name gb -Value gitbranch
 
 function gitcommit { git commit $args }
-Set-Alias -Name gco -Value gitcommit
+Set-Alias -Name gc -Value gitcommit
 
 function gitshow { git show $args }
 Set-Alias -Name gs -Value gitshow
+
+function gitshow { git checkout $args }
+Set-Alias -Name gco -Value gitshow
